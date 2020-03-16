@@ -1,8 +1,11 @@
+body{
+    background-color: #616161;
+}
 #hola{
-    font-size: 25px;
+    font-size: 20px;
 }
 #hola:hover{
-    color: red;
+    color: #616161 ;
 }
 @media screen and (min-width:768px){
     #hola{
@@ -17,4 +20,8 @@
     background-color: black;
     color: white;
     padding: 20px;  
+}
+ul li a:hover{
+    color: #9e9e9e ;
+    text-transform: uppercase;
 }
