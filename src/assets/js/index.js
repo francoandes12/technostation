@@ -1,10 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
     M.AutoInit();
-    $("div#contenedor").hide();
-    $('#mostrar').click(function(){
-        $('div#contenedor').toggle();
-    })
-    .css("cursor","pointer");
     $(".subir").click(function(e){
         e.preventDefault();
         $('html,body').animate({
@@ -13,3 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
         return false;
     });
 });
+window.addEventListener('load',()=>{
+    document.getElementById('circulo').className='hide';
+    document.getElementById('contenido').className='animated fadeInDown';
+})
