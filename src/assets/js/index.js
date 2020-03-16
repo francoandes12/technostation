@@ -8,7 +8,3 @@ document.addEventListener('DOMContentLoaded', function () {
         return false;
     });
 });
-window.addEventListener('load',()=>{
-    document.getElementById('circulo').className='hide';
-    document.getElementById('contenido').className='animated fadeInDown';
-})

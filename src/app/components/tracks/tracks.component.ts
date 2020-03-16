@@ -14,6 +14,18 @@ export class TracksComponent implements OnInit {
     $('#mostrar').click(() => {
       $('div#contenedor').toggle();
     });
+    $('#contenedor1').hide();
+    $('#mostrar1').click(() => {
+      $('div#contenedor1').toggle();
+    });
+    $('#contenedor2').hide();
+    $('#mostrar2').click(() => {
+      $('div#contenedor2').toggle();
+    });
+    $('#contenedor3').hide();
+    $('#mostrar3').click(() => {
+      $('div#contenedor3').toggle();
+    });
   }
 
 }
