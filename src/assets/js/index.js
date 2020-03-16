@@ -5,4 +5,11 @@ document.addEventListener('DOMContentLoaded', function () {
         $('div#contenedor').toggle();
     })
     .css("cursor","pointer");
+    $(".subir").click(function(e){
+        e.preventDefault();
+        $('html,body').animate({
+            scrollTop:0
+        },500);
+        return false;
+    });
 });
