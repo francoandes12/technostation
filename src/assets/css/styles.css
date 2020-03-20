@@ -1,27 +1,39 @@
-body{
-    background-color: #616161;
+body {
+  background: #bdc3c7;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2c3e50, #bdc3c7);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
-#hola{
-    font-size: 20px;
+
+#hola {
+  font-size: 20px;
 }
-#hola:hover{
-    color: #616161 ;
+
+#hola:hover {
+  color: #616161;
 }
-@media screen and (min-width:768px){
-    #hola{
-        font-size: 50px;
-    }
+
+@media screen and (min-width:768px) {
+  #hola {
+    font-size: 50px;
+  }
 }
-#parrafo{
-    color: white;
-    padding: 20px;
+
+#parrafo {
+  color: white;
+  padding: 20px;
 }
-.parrafo{
-    background-color: black;
-    color: white;
-    padding: 20px;  
+
+.parrafo {
+  background-color: black;
+  color: white;
+  padding: 20px;
 }
-ul li a:hover{
-    color: #9e9e9e ;
-    text-transform: uppercase;
+
+ul li a:hover {
+  color: #9e9e9e;
+  text-transform: uppercase;
 }
