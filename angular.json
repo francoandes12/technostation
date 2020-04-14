@@ -28,9 +28,11 @@
               "src/assets/css/styles.css",
               "node_modules/materialize-css/dist/css/materialize.min.css",
               "node_modules/animate.css/animate.min.css"
+             
             ],
             "scripts": [
               "node_modules/materialize-css/dist/js/materialize.min.js",
+              "node_modules/materialize-css/js/collapsible.js",
               "node_modules/jquery/dist/jquery.min.js",
               "src/assets/js/index.js"
             ]

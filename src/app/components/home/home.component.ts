@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+declare var $;
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
@@ -10,8 +10,10 @@ export class HomeComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void {
-    
+  ngOnInit(){
+    $(document).ready(function(){
+      $('.collapsible').collapsible();
+    });
   }
 
 }
