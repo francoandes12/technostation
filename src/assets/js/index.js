@@ -8,5 +8,3 @@ document.addEventListener('DOMContentLoaded', function () {
         return false;
     });
 });
-var elems = document.querySelectorAll('.collapsible');
-var instances = M.Collapsible.init(elems, options);
