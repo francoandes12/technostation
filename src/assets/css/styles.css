@@ -19,7 +19,8 @@ body {
 }
 
 #hola:hover {
-  color: #616161;
+  /* color: #616161; */
+  color: #EB5757;
 }
 
 @media screen and (min-width:768px) {
@@ -40,7 +41,8 @@ body {
 }
 
 ul li a:hover {
-  color: #9e9e9e;
+  /* color: #9e9e9e; */
+  color: #EB5757;
   text-transform: uppercase;
 }
 #about{
@@ -50,4 +52,7 @@ ul li a:hover {
 }
 #espacio{
   line-height:2;
+}
+#foot:hover{
+  color: #EB5757;
 }
