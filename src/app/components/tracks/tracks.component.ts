@@ -1,6 +1,4 @@
 import { Component } from '@angular/core';
-declare var jQuery:any;
-declare var $:any;
 
 @Component({
   selector: 'app-tracks',
@@ -8,23 +6,10 @@ declare var $:any;
   styleUrls: ['./tracks.component.css']
 })
 export class TracksComponent {
-
-  constructor() { }
-
-  ngOnInit(): void {
-    $('#contenedor1').hide();
-    $('#mostrar1').click(() => {
-      $('div#contenedor1').toggle();
-    });
-    $('#contenedor2').hide();
-    $('#mostrar2').click(() => {
-      $('div#contenedor2').toggle();
-    });
-    $('#contenedor3').hide();
-    $('#mostrar3').click(() => {
-      $('div#contenedor3').toggle();
-    });
-  }
-   
-
+  titulo = 'Techno';
+  titulo1 = 'House';
+  titulo2 = 'Progress';
+  mostrar = false ;
+  mostrar1 = false;
+  mostrar2 = false;
 }

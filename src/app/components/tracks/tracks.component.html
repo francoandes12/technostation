@@ -78,7 +78,7 @@
       src="https://www.youtube.com/embed/videoseries?list=PL6K4IVRzmkaAAR0MqSl_nZNyFgJMMYq3U" frameborder="0"
       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div> -->
-    <div class="parrafo" align="center">
+   <!--  <div class="parrafo" align="center">
       <button class="waves-effect waves-light btn grey darken-1" id="mostrar1"> TRACKS HOUSE</button>
     </div>
     <br>
@@ -108,4 +108,39 @@
       <iframe width="560" height="315"
         src="https://www.youtube.com/embed/videoseries?list=PL6K4IVRzmkaAAR0MqSl_nZNyFgJMMYq3U" frameborder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div> -->
+    <div class="parrafo">
+      <p class="flow-text z-depth-1 center">Listas de reproduccion <span class="material-icons">
+          room
+        </span></p>
+    </div>
+    <br>
+    <div align="center">
+      <button class="waves-effect waves-light btn grey darken-1 btn-large"(click)="mostrar=!mostrar">{{titulo}}</button>
+      <div class="video-container" *ngIf="mostrar" id="contenedor">
+        <iframe width="560" height="315"
+        src="https://www.youtube.com/embed/videoseries?list=PL6K4IVRzmkaBi_DxdBGiXiEaTLVJpRqVZ&index=2&t=0s "
+        frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+        <br>
+      </div>
+    </div>
+    <br>
+    <div align="center">
+      <button class="waves-effect waves-light btn grey darken-1 btn-large"(click)="mostrar1=!mostrar1">{{titulo1}}</button>
+      <div class="video-container" *ngIf="mostrar1" id="contenedor">
+        <iframe width="560" height="315"
+        src="https://www.youtube.com/embed/videoseries?list=PL6K4IVRzmkaBbgscpf2EGrSDPqBzfB2g8&index=2&t=0s "
+        frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+      </div>
+    </div>
+    <br>
+    <div align="center">
+      <button class="waves-effect waves-light btn grey darken-1 btn-large"(click)="mostrar2=!mostrar2">{{titulo2}}</button>
+      <div class="video-container" *ngIf="mostrar2" id="contenedor">
+        <iframe width="560" height="315"
+        src="https://www.youtube.com/embed/videoseries?list=PL6K4IVRzmkaAAR0MqSl_nZNyFgJMMYq3U" frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
     </div>
