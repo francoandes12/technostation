@@ -7,6 +7,10 @@ declare var $;
 })
 export class HomeComponent implements OnInit {
   title = 'Techno Station!!';
+  dj = 'NICK WARREN';
+  pais = 'UK';
+  genero = 'Progress';
+  sello = 'Soundgarden';
 
   constructor() { }
 

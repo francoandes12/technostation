@@ -1,25 +1,33 @@
 <title>hola</title>
 <div class="container section">
   <blockquote class="white-text black" id="about">
-    Bienvenidos a {{title}}
+    Bienvenidos a {{ title }}
   </blockquote>
   <div class="parrafo">
     <b>
-      <p class="flow-text z-depth-1 center">DJ DEL MES- <span id="dj">ELI NISSAN</span></p>
+      <p class="flow-text z-depth-1 center">
+        DJ DEL MES- <span id="dj">{{ dj }}</span>
+      </p>
     </b>
   </div>
   <div class="col s12 m6 offset-m2 l6 offset-l3">
     <div class="card-panel grey lighten-5 z-depth-1">
       <div class="row valign-wrapper">
         <div class="col s6 m5 l6">
-          <img src="https://djmagla.com/wp-content/uploads/2019/05/Found-Eli-Nissan-664x400.jpg" alt=""
-            class="circle responsive-img"> <!-- notice the "circle" class -->
+          <img
+            src="https://electronicgroove.com/wp-content/uploads/2018/01/Nick-Warren.jpg"
+            alt=""
+            class="circle responsive-img"
+          />
+          <!-- notice the "circle" class -->
         </div>
         <div class="col s6 m7 l6" id="tarjeta">
           <span class="black-text">
-            <mat-icon>emoji_flags</mat-icon><b>Country</b> <i>:ISRAEL </i> <br>
-            <mat-icon>audiotrack</mat-icon> <b>Genre</b> <i>:PROGRESS</i> <br>
-            <mat-icon>album</mat-icon><b>Label</b><i>:LOST&FOUND</i>
+            <mat-icon>emoji_flags</mat-icon><b>Country:</b> <i>{{ pais }}</i>
+            <br />
+            <mat-icon>audiotrack</mat-icon> <b>Genre:</b> <i>{{ genero }}</i>
+            <br />
+            <mat-icon>album</mat-icon><b>Label:</b><i>{{ sello }}</i>
           </span>
         </div>
       </div>
@@ -28,93 +36,173 @@
   <div class="parrafo">
     <p class="flow-text z-depth-1 center">SET RECOMENDADO</p>
   </div>
-  <br>
+  <br />
   <div class="video-container">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/pfCL3yiGPoY" frameborder="0"
-      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/MyqAjcUYess"
+      frameborder="0"
+      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
   </div>
   <div class="row">
     <div class="col s12">
       <div class="card black">
         <div class="card-content white-text center">
-          <span class="card-title center">Mas info de Eli Nissan</span>
-          <p>Eli Nissan [ Lost &Found / Rumors ] Tel aviv based dj producer & musician considered one of the finest and
-            leading Djs of underground house & techno scene @ Tel Aviv Specializes in creating electronic music from
-            Deep Underground House & techno</p>
+          <span class="card-title center">Mas info de {{ dj }}</span>
+          <p>
+            Nick Warren continues to be so respected because he knows how to
+            truly work a crowd, delivering again and again, yet taking them
+            somewhere they’ve never been before. That's what comes with vision
+            and, just as importantly in Warren’s case, experience.
+          </p>
         </div>
         <div class="card-action">
-          <a href="https://www.facebook.com/DJELINISSAN/" target="_blank">Fb page</a>
-          <a href="https://soundcloud.com/eli-nissan" class="right" target="_blank">Soundcloud</a>
+          <a href="https://es-la.facebook.com/NickWarrenDJ/" target="_blank"
+            >Fb page</a
+          >
+          <a
+            href="https://soundcloud.com/djnickwarren"
+            class="right"
+            target="_blank"
+            >Soundcloud</a
+          >
         </div>
       </div>
     </div>
   </div>
   <div class="parrafo">
-    <p class="flow-text z-depth-1 center">SET DEL MES: Boris Brejcha - Home Live Stream (18-04-2020)</p>
+    <p class="flow-text z-depth-1 center">
+      SET DEL MES: Boris Brejcha - Home Live Stream (18-04-2020)
+    </p>
   </div>
-  <br>
+  <br />
   <div class="video-container">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/-xc48Wu2DpE" frameborder="0"
-      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/-xc48Wu2DpE"
+      frameborder="0"
+      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
   </div>
-  <br>
+  <br />
   <div class="parrafo">
-    <p class="flow-text z-depth-1 center">TRACK DEL MES - Kevin de Vries - Omertá </p>
+    <p class="flow-text z-depth-1 center">
+      TRACK DEL MES - Kevin de Vries - Omertá
+    </p>
   </div>
-  <br>
+  <br />
   <div class="video-container">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/9tpI7fO_0zk" frameborder="0"
-      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/9tpI7fO_0zk"
+      frameborder="0"
+      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
   </div>
-  <br>
+  <br />
   <div class="parrafo">
-    <p class="flow-text z-depth-1 center">EXPLOSIVE SET! Green Velvet (Live Set)</p>
+    <p class="flow-text z-depth-1 center">
+      EXPLOSIVE SET! Green Velvet (Live Set)
+    </p>
   </div>
-  <br>
+  <br />
   <div class="video-container">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/EFHeHLZpVlg" frameborder="0"
-      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/EFHeHLZpVlg"
+      frameborder="0"
+      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
   </div>
-  <br>
+  <br />
   <div class="parrafo">
-    <p class="flow-text z-depth-1 center">EXPLOSIVE TRACK! Ryan Wallace (UK) - Close Your Eyes (Sam Heyman Remix)</p>
+    <p class="flow-text z-depth-1 center">
+      EXPLOSIVE TRACK! Ryan Wallace (UK) - Close Your Eyes (Sam Heyman Remix)
+    </p>
   </div>
-  <br>
+  <br />
   <div class="video-container">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/W9lbXsyD6LI" frameborder="0"
-      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/W9lbXsyD6LI"
+      frameborder="0"
+      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
   </div>
-  <br>
+  <br />
   <div class="parrafo">
-    <p class="flow-text z-depth-1 center">STREAM : MACEO PLEX LIVE! RECOMENDADO<i class="material-icons">grade</i></p>
+    <p class="flow-text z-depth-1 center">
+      STREAM : MACEO PLEX LIVE! RECOMENDADO<i class="material-icons">grade</i>
+    </p>
   </div>
-  <br>
+  <br />
   <div class="video-container">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/ePolozByGXs" frameborder="0"
-      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/ePolozByGXs"
+      frameborder="0"
+      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
   </div>
-  <br>
+  <br />
   <ul class="collection with-header">
     <li class="collection-header black white-text">
-      <p class="flow-text z-depth-1 center">STREAMS TODAS LAS SEMANAS!<i class="material-icons">grade</i></p>
+      <p class="flow-text z-depth-1 center">
+        STREAMS TODAS LAS SEMANAS!<i class="material-icons">grade</i>
+      </p>
     </li>
     <li class="collection-item black white-text">
-      <div><span class="material-icons">album</span> LOST&FOUND LABEL-VIERNES<a
-          href="https://www.facebook.com/guyjlostandfoundrecords" target="_blank" class="secondary-content white-text">LINK</a>
+      <div>
+        <span class="material-icons">album</span> LOST&FOUND LABEL-VIERNES<a
+          href="https://www.facebook.com/guyjlostandfoundrecords"
+          target="_blank"
+          class="secondary-content white-text"
+          >LINK</a
+        >
       </div>
     </li>
     <li class="collection-item black white-text">
-      <div><i class="material-icons">play_arrow</i> JOHN DIGWEED-LOS SABADOS!<a
-          href="https://www.facebook.com/djjohndigweed" target="_blank" class="secondary-content white-text">LINK</a>
+      <div>
+        <i class="material-icons">play_arrow</i> JOHN DIGWEED-LOS SABADOS!<a
+          href="https://www.facebook.com/djjohndigweed"
+          target="_blank"
+          class="secondary-content white-text"
+          >LINK</a
+        >
       </div>
     </li>
     <li class="collection-item black white-text">
-      <div><i class="material-icons">whatshot</i> DUBFIRE-TODOS LOS SABADOS!<a href="https://www.facebook.com/dubfire"
-          target="_blank" class="secondary-content white-text">LINK</a></div>
+      <div>
+        <i class="material-icons">whatshot</i> DUBFIRE-TODOS LOS SABADOS!<a
+          href="https://www.facebook.com/dubfire"
+          target="_blank"
+          class="secondary-content white-text"
+          >LINK</a
+        >
+      </div>
     </li>
     <li class="collection-item black white-text">
-      <div><i class="material-icons">whatshot</i> HERNRY SAIZ-SABADOS!<a href="https://www.facebook.com/HenrySaizOfficial"
-          target="_blank" class="secondary-content white-text">LINK</a></div>
+      <div>
+        <i class="material-icons">whatshot</i> HERNRY SAIZ-SABADOS!<a
+          href="https://www.facebook.com/HenrySaizOfficial"
+          target="_blank"
+          class="secondary-content white-text"
+          >LINK</a
+        >
+      </div>
     </li>
   </ul>
 </div>
