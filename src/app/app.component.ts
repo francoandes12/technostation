@@ -1,14 +1,11 @@
-import { Component } from '@angular/core';
-declare var jQuery:any;
-declare var $:any;
+import { Component } from "@angular/core";
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: "app-root",
+  templateUrl: "./app.component.html",
+  styleUrls: ["./app.component.css"],
 })
 export class AppComponent {
-  title = 'Techno Station';
-  ngOnInit(){
-  }
+  title = "Techno Station";
+  ngOnInit() {}
 }
