@@ -22,4 +22,6 @@ export class TracksComponent {
   track8 = "Latmun - Try Stop Me";
   track9 = "Cardi B - WAP (Eli Bury 'In This House' Edit)";
   track10 = "ARTBAT - Best of Me feat. Sailor & I (Original Mix)";
+  track11 = "50 Cent - Candy Shop (BORNZI Edit)";
+  track12 = "Ronnie Spiteri - Breathe (wAFF Remix)";
 }
