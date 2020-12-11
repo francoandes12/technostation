@@ -9,6 +9,8 @@ import { routing, appRoutingProviders } from './app.routing';
 import { HomeComponent } from './components/home/home.component';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { MatIconModule } from '@angular/material/icon';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,8 @@ import { MatIconModule } from '@angular/material/icon';
     BrowserModule,
     routing,
     NoopAnimationsModule,
-    MatIconModule
+    MatIconModule,
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [
     appRoutingProviders
