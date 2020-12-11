@@ -1,8 +1,8 @@
 {
-  "name": "technostation",
-  "short_name": "technostation",
-  "theme_color": "141516",
-  "background_color": "#fafafa",
+  "name": "Techno Station",
+  "short_name": "Ts",
+  "theme_color": "#141516",
+  "background_color": "#00001E",
   "display": "standalone",
   "scope": "./",
   "start_url": "./",
