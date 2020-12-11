@@ -1,15 +1,15 @@
-.nuevomenu{
-    background-image: url(../assets/img/headphones-690685_1920.jpg);
-    height: 300px;
-    background-size: 100% 100%;
-    font-family: 'Lexend Giga', sans-serif;
+.nuevomenu {
+  background-image: url(../assets/img/headphones-690685_1920.jpg);
+  height: 300px;
+  background-size: 100% 100%;
+  font-family: "Lexend Giga", sans-serif;
 }
-@media screen and (min-width:768px) {
-    .nuevomenu{
-        background-image: url(../assets/img/headphones-690685_1920.jpg);
-        height: 600px;
-        background-size: 100% 100%;
-        font-family: 'Lexend Giga', sans-serif;
-        margin-top: 0%;
-    }
+@media screen and (min-width: 768px) {
+  .nuevomenu {
+    background-image: url(../assets/img/headphones-690685_1920.jpg);
+    height: 600px;
+    background-size: 100% 100%;
+    font-family: "Lexend Giga", sans-serif;
+    margin-top: 0%;
+  }
 }

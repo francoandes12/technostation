@@ -19,6 +19,7 @@ export class TracksComponent {
   track4 = "Dmitry Molosh & Nōpi - Consciousness Switch";
   track5 = "Magdalena - Outlines";
   track6 = "Leon - Disco 3000";
+  album1 = "Drumcode Presents A-Sides Vol.10.";
   constructor(private titleService: Title, private metaTagService: Meta) {}
   ngOnInit() {
     this.titleService.setTitle(this.title);
