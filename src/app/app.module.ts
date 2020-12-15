@@ -11,6 +11,8 @@ import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { MatIconModule } from '@angular/material/icon';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+import { BestOfComponent } from './components/best-of/best-of.component';
+import { AndesComponent } from './components/andes/andes.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { environment } from '../environments/environment';
     TracksComponent,
     AboutComponent,
     SetsComponent,
-    HomeComponent
+    HomeComponent,
+    BestOfComponent,
+    AndesComponent
   ],
   imports: [
     BrowserModule,

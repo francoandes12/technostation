@@ -2,8 +2,7 @@
   <nav class="nuevomenu">
     <div class="nav-wrapper container">
       <!-- <h1 [routerLink]="['/']" [routerLinkActive]="['actived']" class="brand-logo center" style="cursor: pointer;">Techno Station</h1> -->
-      <a [routerLink]="['/']" [routerLinkActive]="['actived']" class="brand-logo titulo" id="hola">Techno
-        Station</a>
+      <a [routerLink]="['/']" [routerLinkActive]="['actived']" class="brand-logo titulo" id="hola">Techno Station</a>
       <a href="#" data-target="menu-responsive" class="sidenav-trigger">
         <mat-icon>menu</mat-icon>
       </a>
@@ -11,6 +10,7 @@
         <li><a [routerLink]="['/tracks']">Tracks</a></li>
         <li><a [routerLink]="['/sets']">Sets</a></li>
         <li><a [routerLink]="['/about']">About</a></li>
+        <li><a [routerLink]="['/bestOf']">Lo mejor de</a></li>
       </ul>
     </div>
   </nav>
@@ -19,6 +19,7 @@
   <li><a class="sidenav-close" [routerLink]="['/tracks']" [routerLinkActive]="['actived']">Tracks</a></li>
   <li><a class="sidenav-close" [routerLink]="['/sets']" [routerLinkActive]="['actived']">Sets</a></li>
   <li><a class="sidenav-close" [routerLink]="['/about']" [routerLinkActive]="['actived']">About</a></li>
+  <li><a class="sidenav-close" [routerLink]="['/bestOf']" [routerLinkActive]="['actived']">Lo mejor de</a></li>
 </ul>
 <router-outlet></router-outlet>
 <footer class="page-footer black">
@@ -51,14 +52,9 @@
     </div>
   </div>
   <div class="footer-copyright">
-    <div class="container center">
-      © 2020-Cordoba,Argentina
-    </div>
+    <div class="container center"> © 2020-Cordoba,Argentina </div>
   </div>
 </footer>
-
-
-
 <!-- <div class="col m6 s12">
   <h5 class="white-text">Techno Station</h5>
   <blockquote>
