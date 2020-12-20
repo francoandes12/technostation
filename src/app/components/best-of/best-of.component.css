@@ -1,16 +1,10 @@
-img {
-  width: 100%;
-  height: 250px;
-}
-
-@media screen and (min-width:768px) {
-  img {
-    width: 500px;
-    height: 324px;
-  }
-}
-
 .contenedor-foto {
   display: flex;
   justify-content: center;
+}
+.contenedor-foto a {
+  color: red;
+}
+.contenedor-foto img {
+  width: 100%;
 }
