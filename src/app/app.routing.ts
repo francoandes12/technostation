@@ -13,7 +13,7 @@ const appRoutes: Routes = [
     {path: 'about', component: AboutComponent},
     {path: 'tracks', component: TracksComponent},
     {path: 'sets', component: SetsComponent},
-    {path: 'bestOf', component: BestOfComponent},
+    {path: 'bestOf/:id', component: BestOfComponent},
     {path: '**', redirectTo: '/'},
 ];
 export const appRoutingProviders: any[] = [];

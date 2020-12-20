@@ -5,7 +5,12 @@ img {
 
 @media screen and (min-width:768px) {
   img {
-    width: 100%;
+    width: 500px;
     height: 324px;
   }
+}
+
+.contenedor-foto {
+  display: flex;
+  justify-content: center;
 }

@@ -1,9 +1,9 @@
-<div class="">
+<div>
   <nav class="nuevomenu">
     <div class="nav-wrapper container">
-      <!-- <h1 [routerLink]="['/']" [routerLinkActive]="['actived']" class="brand-logo center" style="cursor: pointer;">Techno Station</h1> -->
       <a [routerLink]="['/']" [routerLinkActive]="['actived']" class="brand-logo titulo" id="hola">Techno Station</a>
-      <a href="#" data-target="menu-responsive" class="sidenav-trigger">
+      <a [routerLink]="['/']" [routerLinkActive]="['actived']" class="brand-logo titulo" id="hola">Techno Station</a> <a
+        href="#" data-target="menu-responsive" class="sidenav-trigger">
         <mat-icon>menu</mat-icon>
       </a>
       <ul class="right hide-on-med-and-down">
@@ -14,24 +14,24 @@
       </ul>
     </div>
   </nav>
+  <ul class="sidenav" id="menu-responsive">
+    <li><a class="sidenav-close" [routerLink]="['/tracks']" [routerLinkActive]="['actived']">Tracks</a></li>
+    <li><a class="sidenav-close" [routerLink]="['/sets']" [routerLinkActive]="['actived']">Sets</a></li>
+    <li><a class="sidenav-close" [routerLink]="['/about']" [routerLinkActive]="['actived']">About</a></li>
+    <li><a class="sidenav-close" [routerLink]="['/bestOf']" [routerLinkActive]="['actived']">Lo mejor de</a></li>
+  </ul>
 </div>
-<ul class="sidenav" id="menu-responsive">
-  <li><a class="sidenav-close" [routerLink]="['/tracks']" [routerLinkActive]="['actived']">Tracks</a></li>
-  <li><a class="sidenav-close" [routerLink]="['/sets']" [routerLinkActive]="['actived']">Sets</a></li>
-  <li><a class="sidenav-close" [routerLink]="['/about']" [routerLinkActive]="['actived']">About</a></li>
-  <li><a class="sidenav-close" [routerLink]="['/bestOf']" [routerLinkActive]="['actived']">Lo mejor de</a></li>
-</ul>
 <router-outlet></router-outlet>
 <footer class="page-footer black">
   <div class="row">
-    <div class="col m2 s12 ">
+    <div class="col m2 s12">
       <blockquote>
         <p class="grey-text text-lighten-4">Creado por Franco Ibarra</p>
       </blockquote>
     </div>
-    <div class="col m3 s12 ">
+    <div class="col m3 s12">
       <blockquote>
-        <p class="grey-text text-lighten-4">contacto: francoandes12@gmail.com</p>
+        <p class="grey-text text-lighten-4"> contacto: francoandes12@gmail.com </p>
       </blockquote>
     </div>
     <div class="col m1 s12">
@@ -41,38 +41,24 @@
     </div>
     <div>
       <ul>
-        <li class="col m2 s4"><a class="grey-text text-lighten-3" href="https://github.com/francoandes12"
-            target="_blank">github</a></li>
-        <li class="col m2 s4"><a class="grey-text text-lighten-3" href="https://www.facebook.com/francoandes12"
-            target="_blank">face</a></li>
-        <li class="col m2 s4 subir"><a class="grey-text text-lighten-3" href="#">
-            <mat-icon>navigation</mat-icon>
-          </a></li>
+        <li class="col m2 s4">
+          <a class="grey-text text-lighten-3" href="https://github.com/francoandes12" target="_blank">
+            <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="logo github"
+              width="25" height="25" />
+          </a>
+        </li>
+        <li class="col m2 s4">
+          <span class="material-icons medium">
+            <a class="grey-text text-lighten-3" href="https://www.facebook.com/francoandes12"
+              target="_blank">facebook</a>
+          </span>
+        </li>
       </ul>
+      <ngx-scrolltop theme="white" backgroundColor="#ffffff"></ngx-scrolltop>
     </div>
   </div>
   <div class="footer-copyright">
     <div class="container center"> © 2020-Cordoba,Argentina </div>
   </div>
+  <ngx-scrolltop></ngx-scrolltop>
 </footer>
-<!-- <div class="col m6 s12">
-  <h5 class="white-text">Techno Station</h5>
-  <blockquote>
-    <p class="grey-text text-lighten-4">Creado por Franco Ibarra</p>
-  </blockquote>
-  <blockquote>
-    <p class="grey-text text-lighten-4">contacto: francoandes12@gmail.com</p>
-  </blockquote>
-</div>
-<div class="col l4 offset-l2 s6">
-  <h5 class="white-text">Links</h5>
-  <ul>
-    <li class="subir"><a class="grey-text text-lighten-3" href="#">
-        <mat-icon>navigation</mat-icon>
-      </a></li>
-    <li><a class="grey-text text-lighten-3" href="https://github.com/francoandes12" target="_blank">github</a>
-    </li>
-    <li><a class="grey-text text-lighten-3" href="https://www.facebook.com/francoandes12" target="_blank">fb</a>
-    </li>
-  </ul>
-</div> -->

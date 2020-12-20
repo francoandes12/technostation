@@ -13,7 +13,10 @@ import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { BestOfComponent } from './components/best-of/best-of.component';
 import { AndesComponent } from './components/andes/andes.component';
-
+import { NgxScrollTopModule } from 'ngx-scrolltop';
+import {DjService} from './dj.service'
+import {YouTubePlayerModule} from '@angular/youtube-player';
+import { YoutubeComponent } from './components/youtube/youtube.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,17 +25,21 @@ import { AndesComponent } from './components/andes/andes.component';
     SetsComponent,
     HomeComponent,
     BestOfComponent,
-    AndesComponent
+    AndesComponent,
+    YoutubeComponent
   ],
   imports: [
     BrowserModule,
     routing,
     NoopAnimationsModule,
     MatIconModule,
-    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
+    NgxScrollTopModule,
+    YouTubePlayerModule
   ],
   providers: [
-    appRoutingProviders
+    appRoutingProviders,
+    DjService
   ],
   bootstrap: [AppComponent]
 })

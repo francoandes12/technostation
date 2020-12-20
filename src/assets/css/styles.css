@@ -38,11 +38,16 @@ body {
   color: white;
   padding: 20px;
 }
-
+ul li a {
+  transition: transform 0.2s;
+}
 ul li a:hover {
   /* color: #9e9e9e; */
   color: #eb5757;
-  text-transform: uppercase;
+}
+li span:hover,
+li a img:hover {
+  transform: scale(2);
 }
 #about {
   padding: 20px;

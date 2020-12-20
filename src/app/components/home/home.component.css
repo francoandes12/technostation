@@ -1,4 +1,8 @@
-#tarjeta{
-    display: flex;
-    justify-content: center;
+#tarjeta {
+  display: flex;
+  justify-content: center;
+}
+
+.parrafo {
+  margin-bottom: 20px;
 }
