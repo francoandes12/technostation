@@ -1,13 +1,6 @@
-<div>
+<div class="">
   <nav class="nuevomenu">
     <div class="nav-wrapper container">
-      <a
-        [routerLink]="['/']"
-        [routerLinkActive]="['actived']"
-        class="brand-logo titulo"
-        id="hola"
-        >Techno Station</a
-      >
       <a
         [routerLink]="['/']"
         [routerLinkActive]="['actived']"
@@ -25,33 +18,33 @@
       </ul>
     </div>
   </nav>
-  <ul class="sidenav" id="menu-responsive">
-    <li>
-      <a
-        class="sidenav-close"
-        [routerLink]="['/tracks']"
-        [routerLinkActive]="['actived']"
-        >Tracks</a
-      >
-    </li>
-    <li>
-      <a
-        class="sidenav-close"
-        [routerLink]="['/sets']"
-        [routerLinkActive]="['actived']"
-        >Sets</a
-      >
-    </li>
-    <li>
-      <a
-        class="sidenav-close"
-        [routerLink]="['/about']"
-        [routerLinkActive]="['actived']"
-        >About</a
-      >
-    </li>
-  </ul>
 </div>
+<ul class="sidenav" id="menu-responsive">
+  <li>
+    <a
+      class="sidenav-close"
+      [routerLink]="['/tracks']"
+      [routerLinkActive]="['actived']"
+      >Tracks</a
+    >
+  </li>
+  <li>
+    <a
+      class="sidenav-close"
+      [routerLink]="['/sets']"
+      [routerLinkActive]="['actived']"
+      >Sets</a
+    >
+  </li>
+  <li>
+    <a
+      class="sidenav-close"
+      [routerLink]="['/about']"
+      [routerLinkActive]="['actived']"
+      >About</a
+    >
+  </li>
+</ul>
 <router-outlet></router-outlet>
 <footer class="page-footer black">
   <div class="row">
@@ -105,5 +98,5 @@
   <div class="footer-copyright">
     <div class="container center">© 2020-Cordoba,Argentina</div>
   </div>
-  <ngx-scrolltop></ngx-scrolltop>
 </footer>
+<ngx-scrolltop></ngx-scrolltop>
