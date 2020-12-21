@@ -8,11 +8,11 @@ import { Title, Meta } from "@angular/platform-browser";
 export class SetsComponent implements OnInit {
   title = "Techno Station-Sets";
   video1 = "Charlotte de Witte Alternative Top 100 DJs Winner";
-  video2 = "Guy J - Echos (Live) - 2020-11-13- LF032";
+  video2 = "Marino Canal Live From The Ruins Of Acinipo";
   video3 = "Adam Beyer recorded for Beatport: When The Music Stops in Ibiza";
   video4 = "Hot Since 82 - Pier Pressure";
   video5 =
-    "Moxy Muzik w/ Darius Syrossian b2b Ben Sterling - Brighton Music Conference";
+    "At Home with Henry 88 Club Sessions: Organic House";
   video6 = "Eelke Kleijn at Beograđanka Tower";
   constructor(private titleService: Title, private metaTagService: Meta) {}
   ngOnInit() {

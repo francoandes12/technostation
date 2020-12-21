@@ -52,6 +52,30 @@ export class DjService {
       playlistYt:
         "https://www.youtube.com/watch?v=AGdA7cmSkFk&list=RDEM758bgXMpvzEaNZpsHSVPPw&start_radio=1&ab_channel=BoilerRoom",
     },
+    {
+      nombre: "Guy J",
+      pais: "Israel",
+      genero: "Progress",
+      track: "Lost & Found",
+      videoId: "xWADvgxAV24",
+      fotoUrl:
+        "https://img.discogs.com/DEkoS15HOGbpWmuBBad64gZHweM=/600x400/smart/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/A-566502-1486584375-3783.jpeg.jpg",
+      playlist: "https://open.spotify.com/playlist/37i9dQZF1DZ06evO4wWPST",
+      playlistYt:
+        "https://www.youtube.com/watch?v=5HzeplEuQfk&list=RDEMo1XmVqmo811d1qy-QnjLEw&start_radio=1&ab_channel=Caf%C3%A9delMar%28Official%29",
+    },
+    {
+      nombre: "Solomun",
+      pais: "Bosnia",
+      genero: "Techno",
+      track: "Foals - Late Night [Solomun Remix]",
+      videoId: "sQVeK7Dt18U",
+      fotoUrl:
+        "https://neolistas.com/wp-content/uploads/2018/06/solomun.jpg.webp",
+      playlist: "https://open.spotify.com/playlist/1wVAU8NhylZGHcPexa2JnD",
+      playlistYt:
+        "https://www.youtube.com/watch?v=sPBVzqOax3Y&list=RDEMQZzxychxMDnpp52KPbNnUg&start_radio=1&ab_channel=TakeItEasy",
+    },
   ];
 
   constructor() {}
