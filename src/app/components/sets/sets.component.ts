@@ -7,14 +7,14 @@ import { Title, Meta } from "@angular/platform-browser";
 })
 export class SetsComponent implements OnInit {
   title = "Techno Station-Sets";
-  video1 = "Charlotte de Witte Alternative Top 100 DJs Winner";
-  video2 = "Marino Canal Live From The Ruins Of Acinipo";
-  video3 = "Adam Beyer recorded for Beatport: When The Music Stops in Ibiza";
+  video1 = "Guy J | ECHOS 18-12-2020";
+  video2 = "Nic Fanciulli Soundscapes set @ Bodiam Castle";
+  video3 = "Hernan Cattaneo - SunsetStream Eclipse Edition";
   video4 = "Hot Since 82 - Pier Pressure";
   video5 =
-    "At Home with Henry 88 Club Sessions: Organic House";
-  video6 = "Eelke Kleijn at Beograđanka Tower";
-  constructor(private titleService: Title, private metaTagService: Meta) {}
+    "Jamie Jones DJ set - @Beatport x Absolut NYE 2020 Global Celebration";
+  video6 = "At Home with Henry 98 The Last Club Sessions of the Season";
+  constructor(private titleService: Title, private metaTagService: Meta) { }
   ngOnInit() {
     this.titleService.setTitle(this.title);
     this.metaTagService.updateTag({

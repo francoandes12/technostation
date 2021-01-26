@@ -1,6 +1,6 @@
 import { Component } from "@angular/core";
 import { Title, Meta } from "@angular/platform-browser";
-import {DjService} from '../../dj.service'
+import { DjService } from '../../dj.service'
 @Component({
   selector: "app-home",
   templateUrl: "./home.component.html",
@@ -9,17 +9,17 @@ import {DjService} from '../../dj.service'
 export class HomeComponent {
   title = "Techno Station-Inicio";
   titulo = "Techno Station!!";
-  dj = "SASHA";
-  pais = "Reino Unido";
-  genero = "Progress";
-  sello = "Last Night on Earth";
+  dj = "Victor Ruiz";
+  pais = "Brasil";
+  genero = "Techno";
+  sello = "Drumcode";
   foto =
-    "https://wolkenmagazine.com/wp-content/uploads/2019/10/f99-Sasha_press-shot_blog.jpg";
-  setdelMes = "Guy J - Melodic Podcast 025";
-  trackDelMes = "Pig&Dan & Victor Ruiz — Paradise Lost";
-  djs:any[] = []
+    "https://d29rinwu2hi5i3.cloudfront.net/article_media/40540b70-85b0-419a-8271-076063ac9b2c/w768/victor_ruiz12.jpg";
+  setdelMes = "Hernán Cattáneo - Subtract Radio 04";
+  trackDelMes = "Agents Of Time - Chain Reaction";
+  djs: any[] = []
 
-  constructor(private titleService: Title, private metaTagService: Meta, private _servicio: DjService) {}
+  constructor(private titleService: Title, private metaTagService: Meta, private _servicio: DjService) { }
   ngOnInit() {
     this.titleService.setTitle(this.title);
     this.metaTagService.updateTag({

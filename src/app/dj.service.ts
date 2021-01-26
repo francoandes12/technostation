@@ -14,7 +14,7 @@ export class DjService {
       track: "Conjure Dreams",
       videoId: "b2RcZQNMy5s",
       playlist: "https://open.spotify.com/playlist/37i9dQZF1DZ06evO2h7ny3",
-      playlistYt: "",
+      playlistYt: "https://www.youtube.com/watch?v=b2RcZQNMy5s&list=RDEMrOeHAx0DIQhcf5U8Lijmnw&start_radio=1&ab_channel=drumcodeofficial",
     },
     {
       nombre: "Tale of Us",
@@ -78,7 +78,7 @@ export class DjService {
     },
   ];
 
-  constructor() {}
+  constructor() { }
   obtenerDjs() {
     return this.dj;
   }
