@@ -9,14 +9,14 @@ import { DjService } from '../../dj.service'
 export class HomeComponent {
   title = "Techno Station-Inicio";
   titulo = "Techno Station!!";
-  dj = "Victor Ruiz";
-  pais = "Brasil";
-  genero = "Techno";
-  sello = "Drumcode";
+  dj = "Eelke Kleijn";
+  pais = "Holanda";
+  genero = "Melodic-Progress";
+  sello = "Varios";
   foto =
-    "https://d29rinwu2hi5i3.cloudfront.net/article_media/40540b70-85b0-419a-8271-076063ac9b2c/w768/victor_ruiz12.jpg";
-  setdelMes = "Hernán Cattáneo - Subtract Radio 04";
-  trackDelMes = "Agents Of Time - Chain Reaction";
+    "https://ege.electronicgroove.com/wp-content/uploads/2020/06/Eelke-Kleijn-I.jpg";
+  setdelMes = "Guy J - Echos (Live) - 2021-03-19 - LF044";
+  trackDelMes = " Tripppin (Maksim Dark Remix)ents Of Time - Chain Reaction";
   djs: any[] = []
 
   constructor(private titleService: Title, private metaTagService: Meta, private _servicio: DjService) { }
